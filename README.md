@@ -16,7 +16,7 @@ total 3.0GB
 # Data cleaning
 
 Docker, Spark, GCP-BigQuery, AWS - reduce data size to new files
-Data after reduction: 1.6GB
+Data after reduction: 1.4GB
 
 # Exploratory data analysis
 
