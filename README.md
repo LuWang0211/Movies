@@ -39,6 +39,10 @@ Q: Whether the age has an impact on movies ratings?
 https://github.com/zishuijingw/Movies/tree/master/img_folder/age_mapping_rating.png
 
 Mathematical calculation of linear correlation：
+actresses['averageRating'].corr(actresses['age']) = 0.037979784708851626
+actors['averageRating'].corr(actors['age']) = -0.0019829741473593085
+
+-> there is no linear relationship between the two variables
 
 What kind of actors/actresses combination can get a good movie rating?
 
