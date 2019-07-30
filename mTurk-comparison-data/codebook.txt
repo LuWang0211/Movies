@@ -1,0 +1,58 @@
+This dataset contains all submitted surveys with the following exclusions and adjustments:
+
+- records where the user failed to answer yes to the Y/N question "Can we use the answers you have just given for our research (and did you answer these questions accurately / as best you could)?"
+- records with age < 18 were removed
+- The character " was replaced with ” in all free response fields
+
+The data was collected at two different sites with the same survey (see the file survey.html) and the responses from each are in the two different files:
+
+data_amt.csv: Respondents were recruited from Amazon Mechanical Turk. They were paid $0.20 to participate and to qualify had to have completed at least 100 other HITs with a 97%+ acceptance rate.
+data_ospp.csv: Respondents were recruited on a website offering free personality tests. They would have visited the website for recreational purposes. They received no compensation and the survey was open to all.
+
+The survey has two main pages. On the first page there were 26 items presented in the format of a likert-type scale. Here is the item text:
+
+Q1      I am tall.
+Q2      I am short.
+Q3      I have to stand on a stool to reach tall kitchen shelves.
+Q4      I have to stand in the back in group photos to not cover up other people.
+Q5      I hit my head on low ceilings.
+Q6      I rarely meet people with more height than me.
+Q7      I'm kind of a midget.
+Q8      Airplane seats never have enough room for my long legs.
+Q9      When I hug people, my head is underneath their chin.
+Q10     I have gangly limbs.
+Q11     I have been sent to the hospital by an electric shock.
+Q12     I own a goat.
+Q13     I know the 'happy birthday to you..' song.
+Q14     I have been asked for money by beggars.
+Q15     I prefer to play it safe and avoid danger.
+Q16     I prefer variety to routine.
+Q17     I rarely clean house.
+Q18     I rarely complain.
+Q19     I rarely overindulge.
+Q20     I accept what others say.
+Q21     I enjoy being part of a loud crowd.
+Q22     I offend no one.
+Q23     I see that nobody gets left out.
+Q24     I try not to deceive others.
+Q25     I try out new things.
+Q26     I will push people around to get what I want.
+
+On page, they were listed in a new random order for each participant. They were labeled 1=Strongly disagree, 2=Disagree, 3=Neither agree not disagree, 4=Agree, 5=Strongly
+agree (0=no response).
+
+On the second page three more questions were asked:
+
+age       What is your age in years?
+engnat    Is English your native language?
+gender     What is your gender?
+
+feet      What is your height? (use your preferred units)
+inch      What is your height? (use your preferred units)
+cm        What is your height? (use your preferred units)
+
+
+The follow values were derived from technical information:
+
+country       The country the user's network connection was based
+submittime    The time (PST) the survey was submitted
